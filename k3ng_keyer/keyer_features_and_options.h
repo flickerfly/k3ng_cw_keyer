@@ -4,7 +4,7 @@
 
 // #define FEATURE_BUTTONS
 // #define FEATURE_COMMAND_MODE
-// #define FEATURE_COMMAND_LINE_INTERFACE // Command Line Interface functionality
+#define FEATURE_COMMAND_LINE_INTERFACE // Command Line Interface functionality
 // #define FEATURE_MEMORIES               // on the Arduino Due, you must have FEATURE_EEPROM_E24C1024 and E24C1024 EEPROM hardware in order to compile this
 // #define FEATURE_MEMORY_MACROS
 // #define FEATURE_WINKEY_EMULATION       // disabling Automatic Software Reset is highly recommended (see documentation)
@@ -14,7 +14,7 @@
 // #define FEATURE_POTENTIOMETER          // do not enable unless you have a potentiometer connected, otherwise noise will falsely trigger wpm changes
 // #define FEATURE_SIDETONE_SWITCH        // adds switch control for the sidetone output. requires an external toggle switch (assigned to an arduino pin - see keyer_pin_settings.h). 
 // #define FEATURE_SIDETONE_NEWTONE       // Use the NewTone library, ~1k smaller code size than the standard tone library. Uses timer1 (pins 9 or 10)  https://bitbucket.org/teckel12/arduino-new-tone/wiki/Home
-// #define FEATURE_SERIAL_HELP
+#define FEATURE_SERIAL_HELP
 // #define FEATURE_HELL                   // Hellscreiber Mode
 // #define FEATURE_PS2_KEYBOARD           // Use a PS2 keyboard to send code - Change keyboard layout (non-US) in K3NG_PS2Keyboard.h.  Additional options below.
 // #define FEATURE_USB_KEYBOARD           // Use a USB keyboard to send code - Uncomment three lines in k3ng_keyer.ino (search for note_usb_uncomment_lines)
@@ -26,7 +26,7 @@
 // #define FEATURE_LCD_4BIT                // classic LCD display using 4 I/O lines
 // #define FEATURE_LCD_8BIT                // classic LCD display using 8 I/O lines
 // #define FEATURE_LCD_ADAFRUIT_I2C        // Adafruit I2C LCD display using MCP23017 at addr 0x20
-// #define FEATURE_LCD_ADAFRUIT_BACKPACK   // Adafruit I2C LCD Backup using MCP23008 (courtesy Josiah Ritchie, KE0BLL)
+#define FEATURE_LCD_ADAFRUIT_BACKPACK   // Adafruit I2C LCD Backup using MCP23008 (courtesy Josiah Ritchie, KE0BLL)
 // #define FEATURE_LCD_YDv1                // YourDuino I2C LCD display with old LCM 1602 V1 ic
 // #define FEATURE_LCD_TWILIQUIDCRYSTAL    // I2C 1602 with backlight using https://github.com/arnakazim/TwiLiquidCrystal-library
 // #define FEATURE_LCD1602_N07DH           // http://linksprite.com/wiki/index.php5?title=16_X_2_LCD_Keypad_Shield_for_Arduino
